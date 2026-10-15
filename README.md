@@ -174,14 +174,6 @@ Generation parameters: `temperature = 0.1` (for factual, consistent answers) and
 
 ---
 
-## ⚠️ Current Limitations
-
-- **In-memory index**: the index lives in the Streamlit session and is rebuilt after a restart or refresh.
-- **Scanned PDFs** are not supported without a separate OCR step.
-- **Page references** are currently stored as page `1` for every chunk (the real page markers are inside the chunk text only).
-- Answer quality depends on the local model you run; always verify critical details against the original document.
-
-
 ---
 
 <div align="center">
