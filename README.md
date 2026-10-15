@@ -181,13 +181,6 @@ Generation parameters: `temperature = 0.1` (for factual, consistent answers) and
 - **Page references** are currently stored as page `1` for every chunk (the real page markers are inside the chunk text only).
 - Answer quality depends on the local model you run; always verify critical details against the original document.
 
-## 🗺️ Roadmap Ideas
-
-- [ ] Accurate per-chunk page numbers for PDFs
-- [ ] OCR support for scanned documents
-- [ ] Persistent vector store
-- [ ] Reranking step for sharper retrieval
-- [ ] Chat history and follow-up questions
 
 ---
 
